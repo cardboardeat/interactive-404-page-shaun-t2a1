@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* General Styles for the Body */
+
+
+body {
+    font-family: 'Roboto', Arial, sans-serif; /* Sets the font for the entire page */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    text-align: center;
+    color: #343a40;
+    background-color: #f4f7f6; /* Light grey background color */
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff; /* Green background for the header */
+    color: #7f7f7f; /* Grey text color */
+    padding: 1rem; /* Padding inside the header */
+    text-align: center; /* Center aligns the text */
+}
+
+/* Navigation Bar Styles */
+nav {
+    display: flex; /* Flexbox layout for the navigation bar */
+    justify-content: center; /* Centers navigation items horizontally */
+    background-color: #ffffff; /* Light background color for the nav */
+    padding: 0.5rem; /* Padding inside the navigation bar */
+    font-size: 14px !important;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav a {
+    color: #7f7f7f; /* White text color for links */
+    text-decoration: none; /* Removes underlines from links */
+    padding: 0.75rem 1.5rem; /* Padding around each link */
+    font-size: 1rem; /* Font size for the links */
+}
+
+nav a:hover {
+    border-radius: 4px; /* Rounded corners on hover */
+    text-decoration: underline;
+}
+
+
+/* Logo Image Styles */
+#logo {
+    max-width: 50rem; /* Maximum width of the logo */
+    display: block; /* Ensures the logo is a block element */
+    margin-left: auto; /* Center aligns the logo horizontally */
+    margin-right: auto; /* Center aligns the logo horizontally */
+    width: 10rem; /* Width of the logo */
+}
+
+/* Error Message Styles */
+#error {
+    text-align: center; /* Center aligns the error message */
+    font-weight: bold; /* Makes the error message bold */
+    font-size: large; /* Larger font size for the error message */
+    margin-top: 10rem;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back-home:hover {
+    background-color: #0056b3;
+}
+
+/* Container Styles */
+.container {
+    display: flex; /* Flexbox layout for the container */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    padding-top: 40px;
+    min-height: 45.5vh; /* Minimum height of 40% of the viewport height */
+    padding: 2rem; /* Padding inside the container */
+    background-color: #fafafa; /* Grey background color */
+}
+
+/* Styles for Item Cards */
+.item-card {
+    background: white; /* White background for the card */
+    border-radius: 15px; /* Rounded corners for the card */
+    padding: 2rem; /* Padding inside the card */
+    margin: 1rem; /* Margin around the card */
+    max-width: 500px; /* Maximum width of the card */
+    width: 100%; /* Full width of the card within the container */
+    height: 20vh; /* Height of 20% of the viewport height */
+    text-align: center; /* Center aligns text within the card */
+}
+
+.item-card h2 {
+    margin: 0.5rem 0; /* Margin around the heading */
+    font-size: 1.5rem; /* Font size for the heading */
+    color: #333; /* Dark grey text color */
+}
+
+.item-card p {
+    margin: 0.5rem 0; /* Margin around the paragraph */
+    color: #666; /* Medium grey text color */
+}
+
+.error-container {
+    body {
+        background-image: url("https://www.kindpng.com/picc/m/363-3639986_transparent-kawaii-pngs-himouto-umaru-chan-png-download.png"), url("https://www.kindpng.com/picc/m/363-3639986_transparent-kawaii-pngs-himouto-umaru-chan-png-download.png");
+        background-color: #fafafafa;
+      }
+    background-image: url("https://www.kindpng.com/picc/m/363-3639986_transparent-kawaii-pngs-himouto-umaru-chan-png-download.png");
+}
